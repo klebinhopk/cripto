@@ -1,0 +1,152 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    border-bottom: 5px solid #FE9A02;
+}
+
+
+.btn-login {
+    background-color: #FE9A02;
+    color: #FFF;
+    font-size: 14px;
+    padding: 5px 25px;
+}
+
+.navbar-nav {
+    margin-right: 1.5em;
+}
+
+.navbar-nav .nav-item a {
+    font-size: 14px;
+    color:#222 !important;
+    margin: 0 .5em;
+}
+
+
+.banner {
+    background: rgb(254,154,2);
+    background: linear-gradient(90deg, rgba(254,154,2,1) 0%, rgba(233,70,203,1) 29%, rgba(99,0,254,1) 100%);
+
+    height: 500px;
+    position: relative;
+}
+
+.banner .title-banner {
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.banner .title-banner span > p {
+    font-weight: bold;
+}
+
+.banner .title-banner > p {
+    font-size: 18px;
+    line-height: normal;
+}
+
+#cripto-moedas {
+    margin-top: -42px;
+    z-index: 1;
+    position: relative;
+}
+/* 
+#cripto-moedas .container {
+    background-color: #fff;
+} */
+
+#cripto-moedas .container .moeda-box {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    box-shadow: 0 0 15px 0px rgb(0 0 0 / 10%);
+    margin: 20px 15px;
+}
+
+#cripto-moedas .container .moeda-title {
+    display: flex;
+    font-weight: bold;
+    color:#666;
+}
+
+#cripto-moedas .container .moeda-percent {
+    margin-left: 10px;
+}
+
+#cripto-moedas .container .moeda-percent.lower {
+    color:tomato;
+}
+
+#cripto-moedas .container .moeda-percent.up {
+    col2r:#2ca26b;
+}
+
+
+.cards1,
+.cards2 {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.cards1 .item ,
+.cards2 .item {
+    margin: 0 10px;
+}
+.cards1.slick-slider button,
+.cards2.slick-slider button{
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.cards1.slick-slider .slide-arrow,
+.cards2.slick-slider .slide-arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+}
+.cards1.slick-slider .prev-arrow,
+.cards2.slick-slider .prev-arrow{
+    left: -40px;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 15px solid #fe9a02;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+.cards1.slick-slider .next-arrow,
+.cards2.slick-slider .next-arrow{
+    right: -40px;
+    width: 0;
+    height: 0;
+    border-right: 0 solid transparent;
+    border-left: 15px solid #fe9a02;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.area-video {
+    position: relative;
+    background-color: #fe9a02;
+}
+
+footer {
+    width: 100%;
+    background: #0e1014;
+    min-width: 320px;
+    min-height: 300px;
+}
